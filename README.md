@@ -12,9 +12,9 @@ By streamlining workflows and minimizing human error, TTMS helps railway service
 
 Group Members and Module Responsibilities
 
-Khairul Iman - User Management
-Idham Adha - Ticket Booking, Train Schedule & Route
-Faozan Zikry - Payment Processing
+1. Khairul Iman - User Management
+2. Idham Adha - Ticket Booking, Train Schedule & Route
+3. Faozan Zikry - Payment Processing
 
 Step to Run Project Locally
 
