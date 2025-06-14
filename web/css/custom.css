@@ -1,0 +1,149 @@
+/* General Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #343a40;
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    z-index: 1000;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.sidebar a {
+    display: block;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, border-left 0.3s ease;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #495057;
+    border-left: 5px solid #0d6efd;
+}
+
+/* Main content shift after sidebar */
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Welcome Box Styling */
+.welcome-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-left: 5px solid #0d6efd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Cards Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0b5ed7;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #094bb5;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* Chart Placeholder Styling */
+.chart-placeholder {
+    background-color: #ffffff;
+    border-left: 5px solid #6c757d;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .welcome-box {
+        text-align: center;
+    }
+}
+
+/* Additional custom table styling (optional) */
+.table thead th {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.table tbody tr:hover {
+    background-color: #e9f7fe;
+}
+
+/* Optional: Better card appearance on forms */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
